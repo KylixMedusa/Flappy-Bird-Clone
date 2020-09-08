@@ -15,6 +15,10 @@ fg.src = "img/fg.png";
 pipeNorth.src = "img/pipeNorth.png";
 pipeSouth.src = "img/pipeSouth.png";
 
+window.addEventListener('load',function hideloader(){
+    document.getElementById("loader").classList.add("hidden");
+});
+
 
 // some variables
 
